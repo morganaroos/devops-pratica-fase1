@@ -1,0 +1,9 @@
+{
+  "name": "devops-pratica-fase1",
+  "version": "1.0.0",
+  "description": "Projeto da Fase 1 da disciplina DevOps na Prática",
+  "scripts": {
+    "test": "node tests/validate-html.test.js"
+  },
+  "devDependencies": {}
+}
