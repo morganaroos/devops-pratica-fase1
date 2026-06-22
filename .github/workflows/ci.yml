@@ -26,3 +26,8 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t devops-pratica-fase2 .
+
+      - name: Validate deployment script
+        run: |
+          chmod +x deploy.sh
+          bash -n deploy.sh
