@@ -1,0 +1,6 @@
+services:
+  static-site:
+    build: .
+    container_name: devops-pratica-fase2
+    ports:
+      - "8080:80"

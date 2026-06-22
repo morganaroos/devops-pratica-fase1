@@ -23,3 +23,6 @@ jobs:
 
       - name: Run automated tests
         run: npm test
+
+      - name: Build Docker image
+        run: docker build -t devops-pratica-fase2 .
